@@ -1,0 +1,131 @@
+main {
+    background: grey;
+
+}
+
+main .topic {
+    color: rgba(0, 0, 0, 0.836);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+}
+
+main .strip1_img {
+    border: 19px ridge #9B9B9B;
+    border-radius: 28px 0px 0px 31px;
+}
+
+main .strip1_img img {
+    border-radius: 12px 0px 0px 12px;
+}
+
+main .history {
+    color: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+main .strip2_img {
+    border: 19px ridge #9B9B9B;
+    border-radius: 0px 31px 28px 0px;
+}
+
+main .strip2_img img {
+    border-radius: 0px 12px 12px 0px;
+}
+
+/* <<<<<<<<<<<BIO>>>>>>>>>>>>>>>> */
+
+main .row h3 {
+    color: rgba(0, 0, 0, 0.836);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+}
+
+main .row a {
+    text-decoration: none;
+    font-size: 1.1em;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    border: 1px solid white;
+
+}
+
+main .row .bio_link {
+    transition: 2s;
+    display: inline-block;
+}
+
+main .row .bio_link:hover {
+    transform: rotate(720deg);
+}
+
+main .row button {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+
+
+
+main .row .bio1 {
+    color: white;
+    margin: 100px auto;
+    width: 30%;
+    background-image: linear-gradient(rgba(235, 235, 235, 0.7), rgba(12, 12, 12, 0.7)), url(IMG/width/ferrari_galary.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    border: 17px groove #444444;
+    border-radius: 40px 0px 0px 40px;
+
+}
+
+main .row .bio2 {
+    color: white;
+    margin: 100px auto;
+    width: 30%;
+    background-image: linear-gradient(rgba(235, 235, 235, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/width/OLD.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    border: 17px groove #444444;
+    border-radius: 0px 40px 40px 0px;
+
+}
+
+@media (max-width:768px) {
+
+    main .strip1_img {
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    main .strip1_img img {
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    main .strip2_img {
+        border-radius: 0px 0px 40px 40px;
+    }
+
+    main .strip2_img img {
+        border-radius: 0px 0px 12px 12px;
+    }
+
+
+
+
+    main .row .bio1 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+
+    }
+
+    main .row .bio2 {
+        width: 100%;
+        border-radius: 0px 0px 40px 40px;
+
+    }
+}

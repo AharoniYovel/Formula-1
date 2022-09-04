@@ -1,0 +1,53 @@
+main {
+    background: gray;
+    font-family: sans-serif;
+}
+
+main .topic {
+    color: rgba(0, 0, 0, 0.836);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.61);
+}
+
+main .AccordioN .accordion.accordion-flush .accordion-item {
+    font-family: cursive;
+    background: gray !important;
+    padding: 16px;
+    border: none;
+    color: whitesmoke;
+
+}
+
+
+main .AccordioN .accordion.accordion-flush .accordion-item .accordion-collapse {
+    background: rgba(255, 0, 0, 0.507);
+    border-radius: 6px !important;
+}
+
+main .AccordioN .accordion.accordion-flush .accordion-item button {
+    background: gray;
+    color: whitesmoke;
+
+}
+
+main .AccordioN .img_div img {
+    border: 7px double #CBD81B;
+    border-radius: 16px;
+}
+
+main .AccordioN .accordion-item a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* <<<<<<<<<<<<<<<<<MEDIA QURRY>>>>>>>> */
+
+@media (max-width:768px) {
+
+    main .AccordioN .accordion.accordion-flush .accordion-item {
+        font-family: sans-serif;
+    }
+
+    main .AccordioN .accordion.accordion-flush .accordion-item .IMG {
+        width: 100% !important;
+    }
+}

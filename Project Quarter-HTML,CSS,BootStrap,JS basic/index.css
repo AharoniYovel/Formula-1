@@ -1,0 +1,190 @@
+/* <<<<<<<<<<<<SLIDER START>>>>>> */
+
+.slide {
+    min-height: 591px;
+    min-width: 591px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.slider .carousel-caption h4 {
+    color: seashell;
+    font-size: 2em;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+.slider .carousel-inner .carousel-caption p {
+    color: seashell;
+    font-size: 1.5em;
+    text-shadow: 2px -2px 0px #000000;
+}
+
+.pic_sm p {
+    display: none;
+}
+
+/* <<<<<<<<<<<<SLIDER END>>>>>> */
+
+
+/* <<<<<<<<MAIN START>>>>>>> */
+main {
+    background: grey;
+}
+
+main .WC {
+    min-height: 500px;
+    background: grey;
+}
+
+
+main .WC h2 {
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89, 2px 2px 2px rgba(206, 89, 55, 0);
+    font-weight: 900;
+    letter-spacing: 0.5em;
+
+}
+
+
+
+main .WC .WC_BOX {
+    min-width: 50px;
+    border: 12px ridge darkred;
+    border-radius: 20px;
+}
+
+main .WC .WC_BOX .headline {
+    color: #333333;
+    background: rgb(64, 70, 77);
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+}
+
+
+main .WC .WC_BOX .para {
+
+    color: rgb(255, 251, 245);
+    border-top: 4px black solid;
+    font-weight: bold;
+    word-spacing: 0.05em;
+    min-height: 480px;
+}
+
+
+main .WC .WC_BOX img {
+    border-bottom: 12px ridge darkred;
+    border-radius: 40px;
+
+}
+
+/* <<<<<<<<<<<links>>>>>>>>> */
+
+
+main .LINKS a {
+    text-decoration: none;
+    font-size: 1.1em;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    transition: 1s;
+    display: inline-block;
+}
+
+main .LINKS a:hover {
+    transform: translateY(-5px) scale(1.1);
+    transition: 0.5s;
+
+}
+
+main .LINKS button {
+    background: transparent;
+    color: white;
+    border: none;
+
+}
+
+
+
+main .LINKS .link1 {
+    color: white;
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(207, 48, 48, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/height/tickets.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    border: 2px solid black;
+
+}
+
+main .LINKS .link2 {
+    color: white;
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(207, 48, 48, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/width/uniforms.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    border: 2px solid black;
+
+}
+
+main .LINKS .link3 {
+    color: white;
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(207, 48, 48, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/width/tracks.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    border: 2px solid black;
+
+}
+
+
+/* <<<<<<<<MAIN END>>>>>>> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<MEDIA QURRY>>>>>>>> */
+
+@media (max-width:768px) {
+
+    .slider {
+        display: none;
+    }
+
+    .pic {
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 75vh;
+        background-image: url(IMG/height/MAX_WIN.jpg);
+    }
+
+    .pic_sm p {
+        display: block;
+    }
+
+}

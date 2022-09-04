@@ -1,0 +1,226 @@
+body {
+    font-family: 'Roboto';
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<header התחלה>>>>>>>>>>> */
+
+header {
+    min-height: 130px;
+    background-image: url(IMG/height/race_track.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 15px 22px 0px #000000;
+}
+
+header .container .row {
+    min-height: 130px;
+}
+
+header .logo p {
+    font-size: 6em;
+    font-weight: 900;
+}
+
+header .container nav i {
+    color: whitesmoke;
+    margin-right: 4px;
+    font-size: 1.6em;
+}
+
+header .container nav a {
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 16px;
+    margin-right: 4px;
+    font-size: 1.5em;
+    color: white;
+    border-right: 2px solid white;
+    transition: 2s;
+    display: inline-block;
+
+}
+
+header .container nav a:hover {
+    transform: translateY(-10px) scale(1.2);
+    color: red;
+    transition: 1.5s;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+header .container .row .search {
+    border: dashed;
+    padding: 8px;
+    border-image: linear-gradient(to right, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white, red, white);
+    border-image-slice: 1;
+}
+
+header .container .row .search input {
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+
+}
+
+header .container .row .search button {
+    border: none;
+    background: transparent;
+    color: white;
+
+
+}
+
+header .container .row .search .search_btn i {
+    color: white;
+    transition: 1s;
+}
+
+header .container .row .search .search_btn i:hover {
+    transform: rotate(1000deg);
+}
+
+::placeholder {
+    font-size: 0.95em;
+    color: white;
+    font-style: italic;
+}
+
+/* <<<<<<<<<<<<<<<<<header סןף>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<Burger START>>>>>>>> */
+
+header .burger {
+    display: none;
+}
+
+header .burger i {
+    font-size: 3em;
+}
+
+
+/* <<<<<<<<<<Burger END>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<footer התחלה>>>>>>>>>>>>>> */
+
+footer {
+    min-height: 420px;
+    background-image: url(IMG/width/KIMMY.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: white 2px solid;
+    font-family: sans-serif;
+}
+
+footer .social i {
+    font-size: 3.5em;
+    transition: 1s;
+}
+
+footer .social i:hover {
+    transform: scale(1.4);
+}
+
+.spotify {
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px#000000, 0 0 20px #126b0f, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #15ff00, 0 0 75px #ffffff;
+    color: rgb(0, 255, 0);
+}
+
+.youtube {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px#ffffff, 0 0 15px #5f0404, 0 0 20px #6b0f0f, 0 0 30px #0a0942, 0 0 40px #ff0000, 0 0 55px #ff0000, 0 0 75px #ff0000;
+    color: red;
+}
+
+.facebook {
+    text-shadow: 0 0 5px #939dff, 0 0 10px #0099ff, 0 0 15px #3e3ca1, 0 0 20px #180f6b, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #192b64, 0 0 75px #0c2f7a;
+    color: rgb(17, 14, 167);
+}
+
+.instagram {
+    text-shadow: 0 0 5px #820d99, 0 0 10px #421238, 0 0 15px #f71cff, 0 0 20px #6b290f, 0 0 30px #0a0942, 0 0 40px #9b0000, 0 0 55px #7a0000, 0 0 75px #ffffff;
+    color: rgb(204, 0, 255);
+}
+
+.telegram {
+    text-shadow: 0 0 5px #000000, 0 0 10px #0a3769, 0 0 15px #4a63d3, 0 0 20px #0f206b, 0 0 30px #469796, 0 0 40px #073236, 0 0 55px #082686, 0 0 75px #0e7486;
+    color: rgb(35, 119, 175);
+}
+
+footer .container .copyright {
+    border-top: solid 2px white;
+}
+
+footer .container .copyright p {
+    font-size: 1.5em;
+    position: relative;
+    top: 120px;
+    color: white;
+}
+
+footer .container .copyright i {
+    font-size: 2em;
+    transition: 0.5s;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+footer .container .copyright i:hover {
+    transform: scale(1.4);
+}
+
+
+/* <<<<<<<<<<<<<<<<footer סוף>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<MEDIA QURRY>>>>>>>> */
+
+
+@media (max-width:768px) {
+    header .burger {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    header ul {
+        display: none;
+
+    }
+
+    header {
+        max-height: 130px !important;
+    }
+
+    header .logo {
+        position: absolute;
+        bottom: 5px;
+        right: 50px;
+
+    }
+
+    header .logo p {
+        font-weight: 500;
+
+    }
+
+    header .nav1 {
+        display: none !important;
+    }
+
+    footer .social i {
+        font-size: 2.7em;
+    }
+
+
+}
+
+@media (max-width:1401px) {
+
+    header .search {
+        display: none !important;
+    }
+
+}

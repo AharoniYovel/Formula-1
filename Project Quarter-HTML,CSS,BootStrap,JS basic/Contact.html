@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bars.css">
+    <link rel="stylesheet" href="Header+Footer.css">
+    <link rel="stylesheet" href="Contact.css">
+
+    <script src="JS/Contact.js"></script>
+</head>
+
+<body>
+    <!-- HEADER & BURGER START -->
+    <header class="container-fluid sticky-top">
+
+        <!-- burger start -->
+        <div class="burger">
+            <i id="burger_btn" class="fa fa-bars mt-4 " aria-hidden="true" style="cursor: pointer;"></i>
+
+            <ul id="id_nav_show_hide" class="m-1 start-0 col-8">
+
+                <li>
+                    <div class="home-icon">
+                        <a href="index.html">
+                            <i class="fa fa-home fs-3 p-4" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="ABOUT-icon">
+                        <a href="ABOUT.html">
+                            <i class="fa fa-users fs-3 p-4" aria-hidden="true"> </i>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="Gallery-icon">
+                        <a href="Gallery.html">
+                            <i class="fa fa-picture-o fs-3 p-4" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="FAQ-icon">
+                        <a href="FAQ.html">
+                            <i class="fa fa-quora fs-3 p-4" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="Trivia-icon">
+                        <a href="Trivia.html">
+                            <i class="fa fa-trophy fs-3 p-4" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="Contact-icon">
+                        <a href="Contact.html">
+                            <i class="fa fa-envelope fs-3 p-4" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- burger END -->
+
+        <!-- FULL SCREEN HEADER -->
+        <div class="container">
+            <div class="row justify-content-between text-center  align-items-center">
+
+                <div class="logo col-2 col-md-2 col-xxl-2  d-flex align-items-center">
+                    <a class="text-decoration-none" href="index.html">
+                        <p class="fst-italic h1 text-danger">F1</p>
+                    </a>
+                </div>
+
+                <nav class="nav1 col-md-8 col-xxl-7  d-flex">
+                    <div class="link">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="link ">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <a href="ABOUT.html">About</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                        <a href="Gallery.html">Gallery</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa fa-quora" aria-hidden="true"></i>
+                        <a href="FAQ.html">FAQ</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                        <a href="Trivia.html">Trivia</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="Contact.html">Contact</a>
+                    </div>
+                </nav>
+
+                <div class="search col-xxl-3 d-flex justify-content-between">
+                    <input style="color: white;" class="search_box p-1 bg-transparent" type="search"
+                        placeholder="Lights Out & Away We GO">
+                    <button class="search_btn ">
+                        <i class="fa fa-flag-checkered fs-3" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- FULL SCREEN HEADER END -->
+    <!-- END HEADER -->
+
+
+    <main class="container-fluid">
+
+        <div class="container">
+            <p class="topic h1 text-center col-12 ">Contact Us</p>
+            <div class="row p-5 justify-content-evenly">
+                <form id="id_form" class="col-md-3 col-12">
+
+                    <div class="row row-cols-1 g-3">
+
+                        <div class="col">
+                            <label>Name:</label>
+                            <input type="text" id="id_name" class="Name form-control"
+                                placeholder="Insert your full name" required>
+                        </div>
+
+                        <div class="col">
+                            <label>Email:</label>
+                            <input type="" id="id_email1" class="Email form-control"
+                                placeholder="Insert your valid email" required>
+                        </div>
+
+                        <div class="col">
+                            <label>Verified Email:</label>
+                            <input type="text" id="id_email2" class="Verified form-control"
+                                placeholder="Verified your Email" required>
+                        </div>
+
+                        <div class="col">
+                            <label>Message:</label> <br>
+                            <textarea style="width: 100%;" name="Message" id="id_message" cols="1" rows="5"
+                                placeholder="If you have any other comment, write us..."></textarea>
+                        </div>
+
+                        <button class="col-3 btn btn-danger w-100">Submit</button>
+                    </div>
+                </form>
+
+                <div class="img_div col-md-4 col-12 py-5">
+                    <img src="IMG/height/contact.jpg" alt="contact" class="w-100 float-end">
+                </div>
+
+            </div>
+
+            <div class="info_us col-12 text-center py-4">
+                <div class="row">
+                    <div class="info_adress">
+                        <h2><i class="fa fa-map-marker fs-1" aria-hidden="true"></i>
+                            Our address : George W. Bush 18 , Florida, U.S.A</h2>
+                    </div>
+                    <div class="info_email">
+                        <h2><i class="fa fa-envelope fs-1" aria-hidden="true"></i>
+                            Our Email : joshmickelalen@gmail.com </h2>
+                    </div>
+                    <div class="info_tel">
+
+                        <h2><i class="fa fa-phone fs-1" aria-hidden="true"></i> Our number : +1-555-003-751 </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="social d-flex col-sm-12 col-md-12 justify-content-around align-items-center pt-5">
+
+                <a href="https://www.facebook.com/Formula1/" target="_blank">
+                    <i class="facebook fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/f1/" target="_blank">
+                    <i class="instagram fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://youtu.be/7QJ-N-AQJYc" target="_blank">
+                    <i class="youtube fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+                <a href="https://t.me/s/FIAformula1?before=4684" target="_blank">
+                    <i class="telegram fa fa-telegram" aria-hidden="true"></i>
+                </a>
+                <a href="https://open.spotify.com/show/44YvwJyqsCEEhNZBxuXZQ9" target="_blank">
+                    <i class="spotify fa fa-spotify" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="copyright text-center mt-5">
+                <p>Fullstack Web Developer student © Aharoni Yehiel Yovel</p>
+                <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- END footer -->
+
+
+    <!-- OUT-SOURCH JAVAscript -->
+    <script src="JS/burger_btn.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
